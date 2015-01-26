@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>I-Ching Yarrow Cast Demo</title>
+	<meta name="generator" content="BBEdit 11.0" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="yarrow-sort.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3" style="background-color:#F8F8F8;" class="text-center">
+<h1>Demo of Yarrow Stalk Cast</h1>
+<p>If you ever cast the I-Ching, chances are you did it using the three-coin method. Alas, that method is not statistically equivalent in probable results to the original bronze-age method of sorting yarrow stalks. Of course, the original yarrow stalk method is a pain in the patootie and difficult to wrap your head around. But I wrote it up as human-readable, extensively commented javascript as part of my development of I-Ching: App of Changes. I'm releasing this bit of script under the MIT license. Use it as you wish. It furthers one to cross the great water.  </p>
+<div id="Hexagram" class="text-center"></div>
+<button type="button" class="cast">Click Me!</button>
+</div> <!-- Content -->
+</div> <!-- Row -->
+</div> <!-- Container -->
+<script>
+	$('body').on('click', '.cast', function(e) 
+		{
+		LineCast();		
+		$('<code>'+asciipic+'</code><br />').prependTo('#Hexagram');
+		
+		});	
+</script>
+</body>
+</html>
