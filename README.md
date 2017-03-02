@@ -110,7 +110,7 @@ It therefore makes sense that unchanging Yielding lines are slightly more likely
 
 Which is all just to say that the coin method does not hold the same built-in bias that the yarrow stalk method has. Surely note must have been made by the ancients that a 6 was a relatively rare occurrence indeed. Certainly, anyone in frequent consultation with the book by the yarrow stalk method would have noted the anomaly. I noticed the reticence of 6 after many many runs of the developing program and thought my coding was somehow flawed. But no! Perseverance furthers. No Blame.
 
-Update: Wikipedia sums up all that blather very succinctly, but is this right? The chart below shows an 8/16 chance of Yin or Yang in the Yarrow Stalk method, but shouldn't there be a slightly higher chance of getting a Yielding line given 
+Update: Wikipedia sums up all that blather very succinctly: 
 
 <table class="wikitable sortable">
 <tr>
