@@ -30,7 +30,7 @@ The rest of the stalks (40 or 44 by now) are again divided into two piles and co
  
 This time, an 8 stalk remainder is assigned the number
 
-2. A 4 stalk remainder receives a 3. The four or eight stalks are set aside, and the remaining 36, 40, 32, or 38 stalks are again divided in two and counted off. The possibilities are again:
+A 4 stalk remainder receives a 3. The four or eight stalks are set aside, and the remaining 36, 40, 32, or 38 stalks are again divided in two and counted off. The possibilities are again:
 
  1+1+2=4 
  
