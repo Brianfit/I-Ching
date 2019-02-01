@@ -1,7 +1,8 @@
 const staticAssets = [
   './',
   './styles.css',
-  './yarrow-sort.js'
+  './scripts/main.js',
+  './scripts/yarrow-sort.js'
 ];
 
 self.addEventListener('install', async event => {
