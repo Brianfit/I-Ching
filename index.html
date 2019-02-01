@@ -8,6 +8,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="yarrow-sort.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="manifest" href="/manifest.json">
+
 </head>
 
 <body>
@@ -31,7 +33,21 @@
 			LineCast();
 			$('<code>' + asciipic + '</code><br />').prependTo('#Hexagram');
 
-		});	
+		});
+		window.addEventListener('load', async e => {
+			if ('serviceWorker' in navigator) {
+				try {
+					navigator.serviceWorker.register('serviceWorker.js');
+					console.log('SW registered');
+
+				} catch (error) {
+					console.log('SW failed');
+
+				}
+			}
+		});
+
+
 	</script>
 </body>
 
