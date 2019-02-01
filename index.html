@@ -7,9 +7,9 @@
 	<meta name="generator" content="BBEdit 11.0" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="yarrow-sort.js"></script>
 	<link rel="manifest" href="/manifest.json">
 
 </head>
@@ -17,35 +17,15 @@
 <body>
 	<header class="header">
 		<div class="row">
-			<h1>Cast I-Ching</h1>
+			<h1>I-Ching</h1>
 		</div>
 		<main>
 			<div id="Hexagram" class="text-center"></div>
 			<button type="button" class="cast">Click 6 times</button>
 		</main>
-
 	</header>
-	<script>
-		$('.cast').on('click', function (e) {
-			LineCast();
-			$('<code>' + asciipic + '</code><br />').prependTo('#Hexagram');
-
-		});
-		window.addEventListener('load', async e => {
-			if ('serviceWorker' in navigator) {
-				try {
-					navigator.serviceWorker.register('serviceWorker.js');
-					console.log('SW registered');
-
-				} catch (error) {
-					console.log('SW failed');
-
-				}
-			}
-		});
-
-
-	</script>
+	<script src="scripts/yarrow-sort.js"></script>
+	<script src="scripts/main.js"></script>
 </body>
 
 </html>
