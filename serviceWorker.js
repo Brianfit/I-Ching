@@ -1,6 +1,6 @@
 const staticAssets = [
   './',
-  './styles.css',
+  './css/style.css',
   './scripts/main.js',
   './scripts/yarrow-sort.js'
 ];
