@@ -13,9 +13,14 @@ body {
   box-sizing: border-box;
   color: whitesmoke; }
 
-header {
+main {
   background-image: linear-gradient(to bottom, #5b89a6, #021526);
   height: 100vh; }
+
+.header {
+  border-bottom: 1px solid whitesmoke;
+  width: 80%;
+  margin: 0 auto; }
 
 h1 {
   font-weight: 300;
@@ -23,13 +28,26 @@ h1 {
   text-align: center;
   padding: 1rem 0; }
 
+input {
+  padding: .3rem;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #021526;
+  display: block;
+  margin: 1rem auto;
+  background: none;
+  border-radius: 3px;
+  border: 1px solid #021526; }
+  input::placeholder {
+    color: whitesmoke; }
+
 #Hexagram {
   text-align: center;
   font-size: 2rem;
   padding-bottom: 1rem;
   color: whitesmoke; }
 
-.cast {
+.cast-btn {
   font-weight: 300;
   font-size: 2.5rem;
   display: block;
@@ -41,3 +59,5 @@ h1 {
   border-radius: 3rem;
   align-content: center;
   color: whitesmoke; }
+  .cast-btn:focus {
+    outline: none; }
