@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 61.5%; }
+
+body {
+  box-sizing: border-box;
+  background-color: black;
+  color: whitesmoke; }
+
+h1 {
+  text-align: center;
+  padding: 1rem 0; }
+
+.header {
+  height: 2rem; }
+
+#Hexagram {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  color: whitesmoke; }
+
+.cast {
+  font-size: 1.5rem;
+  display: block;
+  width: 12rem;
+  padding: .4rem;
+  margin: auto auto;
+  border: 1px solid whitesmoke;
+  background: none;
+  border-radius: 3rem;
+  align-content: center;
+  color: whitesmoke; }
