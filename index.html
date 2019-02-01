@@ -15,15 +15,16 @@
 </head>
 
 <body>
-	<div class="container">
+	<header class="header">
 		<div class="row">
-			<div class="header">
-				<h1>Cast I-Ching</h1>
-				<div id="Hexagram" class="text-center"></div>
-				<button type="button" class="cast">Click 6 times</button>
-			</div> <!-- Content -->
-		</div> <!-- Row -->
-	</div> <!-- Container -->
+			<h1>Cast I-Ching</h1>
+		</div>
+		<main>
+			<div id="Hexagram" class="text-center"></div>
+			<button type="button" class="cast">Click 6 times</button>
+		</main>
+
+	</header>
 	<script>
 		$('.cast').on('click', function (e) {
 			LineCast();
