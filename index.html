@@ -15,15 +15,18 @@
 </head>
 
 <body>
-	<header class="header">
-		<div class="row">
-			<h1>I-Ching</h1>
-		</div>
-		<main>
+	<main>
+		<header class="header">
+			<div class="header-row">
+				<h1>I-Ching</h1>
+			</div>
+		</header>
+		<section class="main">
+			<input type="text" class="question" placeholder="Ask Question...">
 			<div id="Hexagram" class="text-center"></div>
-			<button type="button" class="cast">Click 6 times</button>
-		</main>
-	</header>
+			<button type="button" class="cast-btn">Click 6 times</button>
+		</section>
+	</main>
 	<script src="scripts/yarrow-sort.js"></script>
 	<script src="scripts/main.js"></script>
 </body>
