@@ -17,10 +17,18 @@ body {
   box-sizing: border-box; 
   color: whitesmoke
 }
-header {
+
+main {
   background-image: linear-gradient(to bottom, $color-primary-medium, $color-primary-dark);
-  height: 100vh
+  height: 100vh;
 }
+
+.header {
+  border-bottom: 1px solid $color-white;
+  width: 80%;
+  margin: 0 auto
+}
+
 h1 {
   font-weight: 300;
   font-size: 5rem;
@@ -28,14 +36,31 @@ h1 {
   padding: 1rem 0;
 }
 
+input {
+  padding:.3rem;
+  font-size: 2rem;
+  font-weight: 300;
+  color:$color-primary-dark;
+  display: block;
+  margin: 1rem auto;
+  background: none;
+  border-radius: 3px;
+  border: 1px solid $color-primary-dark;
+
+  &::placeholder {
+    color: $color-white
+
+  }
+}
+
 #Hexagram {
   text-align: center;
   font-size: 2rem;
   padding-bottom: 1rem;
-  color: whitesmoke
+  color: $color-white
 }
 
-.cast {
+.cast-btn {
   font-weight: 300;
   font-size: 2.5rem;
   display: block;
@@ -46,6 +71,10 @@ h1 {
   background: none;
   border-radius: 3rem;
   align-content: center;
-  color: whitesmoke
+  color: whitesmoke;
+
+  &:focus {
+    outline: none
+  }
 
 }

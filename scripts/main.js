@@ -1,4 +1,5 @@
-$('.cast').on('click', function (e) {
+$('.cast-btn').on('click', function (e) {
+  console.log('hi')
   LineCast();
   $('<code>' + asciipic + '</code><br />').prependTo('#Hexagram');
 
