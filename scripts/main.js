@@ -1,7 +1,8 @@
 $('.cast-btn').on('click', function (e) {
-  console.log('hi')
-  LineCast();
-  $('<code>' + asciipic + '</code><br />').prependTo('#Hexagram');
+  for (let i = 0; i < 6; i++) {
+    LineCast();
+    $('<code>' + asciipic + '</code><br />').prependTo('#Hexagram');
+  }
 
 });
 window.addEventListener('load', async e => {
