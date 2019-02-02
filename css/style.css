@@ -23,23 +23,28 @@ main {
   margin: 0 auto; }
 
 h1 {
+  text-transform: uppercase;
   font-weight: 300;
   font-size: 5rem;
   text-align: center;
   padding: 1rem 0; }
 
 input {
-  padding: .3rem;
-  font-size: 2rem;
+  padding: 1rem;
+  font-size: 1.6rem;
   font-weight: 300;
-  color: #021526;
+  color: whitesmoke;
   display: block;
   margin: 1rem auto;
   background: none;
   border-radius: 3px;
-  border: 1px solid #021526; }
+  border: 1px solid whitesmoke; }
   input::placeholder {
     color: whitesmoke; }
+  input, input text-area {
+    background-color: #a3b2BF; }
+  input:focus {
+    outline: none; }
 
 #Hexagram {
   text-align: center;
@@ -48,16 +53,27 @@ input {
   color: whitesmoke; }
 
 .cast-btn {
-  font-weight: 300;
-  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
   display: block;
-  width: 20rem;
-  padding: .4rem;
+  align-content: center;
+  font-weight: 300;
+  font-size: 1.6rem;
+  width: 19rem;
+  padding: 1rem;
   margin: auto auto;
   border: 1px solid whitesmoke;
   background: none;
-  border-radius: 3rem;
-  align-content: center;
+  border-radius: 3px;
   color: whitesmoke; }
-  .cast-btn:focus {
-    outline: none; }
+  .cast-btn:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0 1rem 2rem rgba(2, 21, 38, 0.2); }
+  .cast-btn::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; }
+  .cast-btn:focus, .cast-btn:active {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba(2, 21, 38, 0.2); }

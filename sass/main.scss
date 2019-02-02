@@ -30,6 +30,7 @@ main {
 }
 
 h1 {
+  text-transform: uppercase;
   font-weight: 300;
   font-size: 5rem;
   text-align: center;
@@ -37,19 +38,26 @@ h1 {
 }
 
 input {
-  padding:.3rem;
-  font-size: 2rem;
+  padding: 1rem;
+  font-size: 1.6rem;
   font-weight: 300;
-  color:$color-primary-dark;
+  color:$color-white;
   display: block;
   margin: 1rem auto;
   background: none;
   border-radius: 3px;
-  border: 1px solid $color-primary-dark;
+  border: 1px solid $color-white;
 
   &::placeholder {
     color: $color-white
+  }
 
+  &, text-area {
+    background-color: $color-primary-light;
+  }
+
+  &:focus {
+    outline: none
   }
 }
 
@@ -61,19 +69,33 @@ input {
 }
 
 .cast-btn {
-  font-weight: 300;
-  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
   display: block;
-  width: 20rem;
-  padding:.4rem;
+  align-content: center;
+  font-weight: 300;
+  font-size: 1.6rem;
+  width: 19rem;
+  padding: 1rem;
   margin: auto auto;
   border: 1px solid whitesmoke;
   background: none;
-  border-radius: 3rem;
-  align-content: center;
+  border-radius: 3px;
   color: whitesmoke;
-
-  &:focus {
-    outline: none
+  
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0 1rem 2rem rgba($color-black, .2);
+  }
+  &::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+  &:focus, 
+  &:active {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 .5rem 1rem rgba($color-black,.2);
   }
 }
