@@ -2,6 +2,8 @@
 
 A programmatic replication of the Yarrow Stalk Method of I-Ching Divination
 
+This code is free to use. If you like it, you can <a href="https://www.buymeacoffee.com/brianfit">buy me a coffee!</a> (I really like coffee)
+
 The javascript here is the core of [a fairly popular app I've written](http://www.brian-fitzgerald.net/i-ching/?github) to consult the I-Ching. This code randomly generates a hexagram of six lines according to a bronze-age methodology of sorting Yarrow Stalks. Here's an overly long explanation of that method and why it's statistically different from the three-coin method of generating hexagrams that most of us learned in the west. 
 
 Take 50 stalks. Remove one, set it aside. Randomly separate the remaining 49 stalks into two piles, East and West. Take one stalk from the West heap and hold it between thumb and forefinger of your left hand. Take stalks in groups of four from the East pile, until four or fewer stalks remain. Keep this remainder, place it between the ring and middle finger of the left hand. Take stalks in groups of four from the West pile until four or fewer stalks remain. Keep this remainder, and place it between the middle and forefingers of the left hand.
