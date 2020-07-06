@@ -160,3 +160,5 @@ Update: Wikipedia sums up all that blather very succinctly:
 <td style="text-align:center;"><s><b>--------</b></s></td>
 </tr>
 </table>
+
+If you enjoyed this, you can <a href="https://www.buymeacoffee.com/brianfit">buy me a coffee!</a> (Did I mention I really like coffee)
